@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "geol-mod-17",
+  "private_key_id": "d840fa4c23f14f26baf70389aa96ef867dc5fb1c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0aUefbhxmx1hA\nANGoTZjtG+LtWD94FKjLWVi/aJY4yVc8G3rQO4GDoK0O7G0vMh2ErR6JcH2i3F8Y\n06NF7LgwQkbsryCXY4fyZUq12s8D0MQ9+qWaogYjjoIDsvFoBSbcPlqJfAfYdLne\nuRacijZy/MLok1aPlZ02Neyx+sNrjIh39kLhjF+KduZxiV0k5p333TxwgMQNzdbj\n+MrFbD7iKZICyGNHKzkR/jEGdAfIE7VSSSGMNgqQ4CuvSV1kqYSV9GcRCL9Lwe6S\npVusGgR8gUgXE5doBcjOr3mgHFrnJPNVUlO+vpj3sX051horRD9+igQijIKxOiTv\nUFQPc1jrAgMBAAECggEAMqeQvZnsDYuRIr9YHppTAtgemid6ApxCXH4kpfGWpDEb\n9jt8+zSKA8w8awFFEshOc28sMMjN7clURiM+J6b0fFBPm6r8SqVeiVeZZ4AdOeQH\nBaP3lXhCov8jUCiREXTI2XQEda/GgCcd/QQY7jD8YsLHcwfTeRM4Bf2UDNDsx6hA\nAqraser0Bux30jVdP2NmT3bmwqKAXNP+C+SwjwRa8FV4Uk9fU3KtR6MTrbJhIqlA\n2qXUN075Ff/LHEv2WHG+f1IMY2IIerQ+uvaNFVtANwkB1vlDz9dByCHdpYogrzT8\noEIu2gIlDy3+sgpaAMWDY/1ggo8fuIopPHkHzlu1UQKBgQDaPGyBtd0JyM44Kc5m\nDNucTQ1UtoVyNOJTaOe/n+F8EYvI2Hx19I/myPzBijYnxr8ond4R/WlWuh09cQXf\njk8fBlFUCMptIV8b4PvjP7Fj1r07f0iO3nytTp4NTGjXmR8Ntik0vpFly6ppMdHo\n70soRS7leMAvZkU5U0poNQDFswKBgQDToURB9blaRAm4+CZDq6vSpUWn2QQyH2wp\nihTkFcRGZtJWWaT08vk/P7F9uIJIuPBxjKIrUyeu8TJMBlJB6VQGlLw3yE+EufqE\nPV2COBDnEUpxkY8WmeGtpLfKE4NYb7WR2jiP7I9vARRk4Agkjvdu0p3u/JvyzUZW\nkn1QC1Bz6QKBgCFBoftmPmfWTO6sGELe5Lx91XE6Wz2bJ340d1RxRchFWDrkGptT\nCHbP3AyWRkhrdgf3frbZGitYM0qApbd6lT4SFWSr7kURF9BEyb3In/yp5a5iaCk1\naGR0nYtDQJrSP7Q0NTVPcRLFJZPgPq+zf42EdXAMpaTTfesNcUJOCW8XAoGBALO7\nc4f9U9SokgVIot637q5wdK7vbVPQQgEpZ0Kqhc4wxxRU//aUYEBqLKiUSfnPL02Q\nXa4j6kD2UXwlpjiaHCWWrh9F/NrBRFSI9WCBk0Fa+vlm4LoWKIdbrEdvuQ4jmXXs\nejspckuZBCQD7IZ38QZq03zDhwJ3efROZyTS5xn5AoGBAJdWTS4p7gl9pJwIMsdD\nhd4b5JIsglxeecgIJ45+0tPPTTzLV36VhG/cqJqzRDbASUmuH/E9p1m866fpFuMG\nqbnxtdCr7UF1dioCyBeH6PHNeN8RThdVGd2xAVCgAiFEu/yHNNduXTdHODkm0JrC\n3L+VgFK5euLuiKOOXlPjsOX+\n-----END PRIVATE KEY-----\n",
+  "client_email": "mat-mod@geol-mod-17.iam.gserviceaccount.com",
+  "client_id": "104285917668673362320",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mat-mod%40geol-mod-17.iam.gserviceaccount.com"
+}
