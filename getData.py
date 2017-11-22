@@ -12,7 +12,7 @@ def getData():
     browser.get(link)
     assert "Личные " in browser.title
     # elem = browser.find_element_by_name("tbody")
-    e = browser.
+    # e = browser.
     browser.close()
     # requests.packages.urllib3.disable_warnings()
     # u = requests.api.request('post', link, data={'bar': 'baz'}, json=None, verify=False).text
