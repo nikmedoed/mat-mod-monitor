@@ -21,20 +21,24 @@ def getTaskNum(service, spreadsheetId, rangeName = 'D3:D'):
 
 sch = 1
 browser = webdriver.Chrome()
-CREDENTIALS_FILE = 'geol-mod-17-key.json'  # имя файла с закрытым ключом
-credentials = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, ['https://www.googleapis.com/auth/spreadsheets',
-                                                                                  'https://www.googleapis.com/auth/drive'])
-httpAuth = credentials.authorize(httplib2.Http())
-service = apiclient.discovery.build('sheets', 'v4', http = httpAuth)
-spreadsheetId = '1d5UjabePXB9QpW2oTY6QtUkjn7NDMgBMvQzpkW_ccZ0'
+while 1:
+    CREDENTIALS_FILE = 'geol-mod-17-key.json'  # имя файла с закрытым ключом
 
-while datetime.now() < datetime(2017, 12, 31):
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, ['https://www.googleapis.com/auth/spreadsheets',
+                                                                                      'https://www.googleapis.com/auth/drive'])
+    httpAuth = credentials.authorize(httplib2.Http())
+    service = apiclient.discovery.build('sheets', 'v4', http = httpAuth)
+    spreadsheetId = '1d5UjabePXB9QpW2oTY6QtUkjn7NDMgBMvQzpkW_ccZ0'
+
     tasklist = getTaskNum(service, spreadsheetId)
-    # na = getNames(service, spreadsheetId)
-    names, data = getDataS(browser, 5)
+    na = getNames(service, spreadsheetId)
+
+    names, data = getDataS(browser, sch)
+    if sch == 5:#21:
+        sch=0
     if len(data) > 0:
-        # if len(na) > len(names):
-        #     names = na
+        if len(na) > len(names):
+            names = na
         # data.sort(key = lambda x: x[0])
         names = list(names)
         names.sort()
@@ -74,7 +78,7 @@ while datetime.now() < datetime(2017, 12, 31):
                  "values": [names]}
             ]
         }).execute()
-        print("\nРезультаты записаны\n", datetime.now())
+        print("\nРезультаты записаны\n")
     else:
         print(datetime.now(), "Ничего не поменялось. Счётчик:", sch)
 
