@@ -19,8 +19,8 @@ def getData(browser, link, fsid=""):
     tfirst = 0
     bre = False
 
-    try:
-        while 1:
+    while 1:
+        try:
             elem = browser.find_elements_by_xpath('//*[@id="Searchresult"]/table/tbody/tr')
             del (elem[0])
             for el in elem:
@@ -37,10 +37,10 @@ def getData(browser, link, fsid=""):
             if bre:
                 break
             browser.find_element_by_class_name("next").click()
-            sleep(1)
+            sleep(3)
             pagenum += 1
-    except:
-        print("Exception", pagenum)
+        except:
+            print("Exception", pagenum)
 
     names = set(map(lambda m: m[1], new))
     return [firstid, names, new]
@@ -49,8 +49,8 @@ def getData(browser, link, fsid=""):
 def autorize(br, log, pas):
     try:
         br.get('https://informatics.msk.ru/login/index.php')
-        br.find_element_by_xpath('//*[@id="username"]').send_keys(log)
-        br.find_element_by_xpath('//*[@id="password"]').send_keys(pas)
+        br.find_element_by_id('username').send_keys(log)
+        br.find_element_by_id('password').send_keys(pas)
         br.find_element_by_xpath('//*[@id="login"]/div/div[5]/input[2]').click()
         return True
     except:
