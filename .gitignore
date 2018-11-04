@@ -10,7 +10,13 @@ $RECYCLE.BIN/
 .git
 .idea
 __pycache__
+.idea/*
+__pycache__/
+.idea\
+__pycache__\
 _windows
+_windows/
+_windows\
 codestyles
 
 # Windows Installer files
@@ -59,3 +65,6 @@ _windows/laf.xml
 __pycache__/ober.cpython-36.pyc
 _windows/git.xml
 codestyles/Default.xml
+settings.json
+errors.txt
+key.json
