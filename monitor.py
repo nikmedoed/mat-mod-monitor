@@ -28,5 +28,6 @@ if __name__ == "__main__":
             sch += 1
             sleep(30)
     except:
-        pass
+        print('ошибка браузера')
+
     browser.close()
