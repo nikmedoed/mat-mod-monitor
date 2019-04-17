@@ -33,6 +33,7 @@ def writeData(ssID, service, names, data):
         try:
             i = tasklist.index(d[2].split(".")[0])
             j = names.index(d[1])
+            if d[4] in ['OK', 'Зачтено/Принято']: d[3] = 100
             now = round(int(d[3]) / 100.0, 2) # if d[3] in ['OK', 'Зачтено/Принято', 'Частичное решение'] else 0
             matrix[i][j] = now if matrix[i][j] == "" else max(now, matrix[i][j])
         except:
