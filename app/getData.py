@@ -26,7 +26,7 @@ def getData(browser, link, fsid=""):
             for el in elem:
                 e = el.find_elements_by_tag_name('td')
                 resus = list(map(lambda a: a.text, e))
-                re = list(map(lambda a: resus[a], [0, 1, 2, 7]))
+                re = list(map(lambda a: resus[a], [0, 1, 2, 7, 5]))
                 if fsid == re[0] or tfirst == re[0]:
                     bre = True
                     break

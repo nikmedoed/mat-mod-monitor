@@ -17,7 +17,7 @@ if __name__ == "__main__":
     data = []
     sch = 0
     try:
-        while datetime.now() < datetime(2018, 12, 31):
+        while datetime.now() < datetime(2019, 3, 31):
             fsid, name, dat = getData(browser, settings['link'], fsid)
             names.update(name)
             data.extend(dat)
