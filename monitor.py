@@ -10,14 +10,14 @@ if __name__ == "__main__":
     settings = json.loads(open("settings.json", "r").read())
     names = set()
     browser = getBrowser()
-    autorize(browser, settings['login'], settings['password'])
+    autorize(browser, settings['login'], settings['password'], settings['link'])
     service = getGservice(settings['keyname'])
     fsid = 0
     ssID = settings['spreadshitID']
     data = []
     sch = 0
     try:
-        while datetime.now() < datetime(2019, 3, 31):
+        while datetime.now() < datetime.strptime(settings['stop'], '%d.%m.%Y'):
             fsid, name, dat = getData(browser, settings['link'], fsid)
             names.update(name)
             data.extend(dat)

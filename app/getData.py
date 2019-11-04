@@ -46,9 +46,10 @@ def getData(browser, link, fsid=""):
     return [firstid, names, new]
 
 
-def autorize(br, log, pas):
+def autorize(br, log, pas, link):
     try:
-        br.get('https://informatics.msk.ru/login/index.php')
+        br.get(link) #'https://informatics.msk.ru/login/index.php'
+        br.find_element_by_xpath('//*[@id="header"]/div/div/a').click()
         br.find_element_by_id('username').send_keys(log)
         br.find_element_by_id('password').send_keys(pas)
         br.find_element_by_xpath('//*[@id="login"]/div/div[5]/input[2]').click()
@@ -59,13 +60,4 @@ def autorize(br, log, pas):
 
 
 if __name__ == "__main__":
-    link = 'https://informatics.msk.ru/moodle/submits/view.php?group_id=10328'
-    browser = webdriver.Chrome()
-    fsid = 0
-    log, pas = 'nikmedoed', '21122012'
-
-    autorize(browser, log, pas)
-
-    fsid, names, data = getData(browser, link, fsid)
-    print(names)
-    print(data)
+    pass
