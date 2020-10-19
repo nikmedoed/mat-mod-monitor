@@ -54,7 +54,12 @@ def writeData(ssID, service, names, data):
             {"range": "E1:W1",
              "majorDimension": "ROWS",
              # сначала заполнять столбцы, затем ряды (т.е. самые внутренние списки в values - это столбцы)
-             "values": [names]}
+             "values": [names]},
+
+            {"range": "A1",
+             "majorDimension": "ROWS",
+             # сначала заполнять столбцы, затем ряды (т.е. самые внутренние списки в values - это столбцы)
+             "values": [['Последнее обновление:\n'+str(datetime.now())]]}
         ]
     }).execute()
     print("\nРезультаты записаны", datetime.now(), '\n')
