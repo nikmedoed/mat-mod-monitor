@@ -31,7 +31,7 @@ https://docs.google.com/spreadsheets/d/1sQw7rBVq_8Q8cTOEwrs4xYcI1pDNOFkJ3hlzJf-i
 	"keyname": ".json",
 	"link": "",
 	"spreadshitID": "ваш id таблицы",
-	"stop": "дата остановки"    
+    "stop": "дата остановки"
 }
 ```
 4) Установить chromium подобный браузер (google chrome).
