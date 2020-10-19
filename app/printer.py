@@ -1,14 +1,15 @@
 import httplib2
-import apiclient.discovery
+from googleapiclient.discovery import build
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
+
 
 def getGservice(file):
     credentials = ServiceAccountCredentials.from_json_keyfile_name(file,
                                                                    ['https://www.googleapis.com/auth/spreadsheets',
                                                                     'https://www.googleapis.com/auth/drive'])
     httpAuth = credentials.authorize(httplib2.Http())
-    service = apiclient.discovery.build('sheets', 'v4', http=httpAuth)
+    service = build('sheets', 'v4', http=httpAuth)
     return service
 
 
@@ -33,7 +34,7 @@ def writeData(ssID, service, names, data):
         try:
             i = tasklist.index(d[2].split(".")[0])
             j = names.index(d[1])
-            if d[4] in ['OK', 'Зачтено/Принято']: d[3] = 100
+            if d[4].split('\n')[0] in ['OK', 'Зачтено/Принято']: d[3] = 100
             now = round(int(d[3]) / 100.0, 2) # if d[3] in ['OK', 'Зачтено/Принято', 'Частичное решение'] else 0
             matrix[i][j] = now if matrix[i][j] == "" else max(now, matrix[i][j])
         except:

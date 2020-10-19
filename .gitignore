@@ -69,3 +69,8 @@ settings.json
 errors.txt
 key.json
 log.txt
+*.ipynb
+.idea/mat-mod-monitor.iml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/workspace.xml
