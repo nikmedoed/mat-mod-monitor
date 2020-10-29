@@ -13,7 +13,17 @@ def getData(browser, link, fsid=""):
         pass
     sleep(3)
     new = []
-    firstid = browser.find_element_by_xpath('//*[@id="Searchresult"]/table/tbody/tr[2]/td').text
+    errr = True
+    while errr:
+        try:
+            firstid = browser.find_element_by_xpath('//*[@id="Searchresult"]/table/tbody/tr[2]/td').text
+            errr=False
+        except:
+            browser.refresh()
+            sleep(5)
+            browser.get(link)
+            sleep(2)
+            print("Не смог найти первый Id, обновил страницу")
     # print(firstid)
     pagenum = 1
     tfirst = 0
@@ -46,6 +56,13 @@ def getData(browser, link, fsid=""):
 
     names = set(map(lambda m: m[1], new))
     return [firstid, names, new]
+
+
+def checkAuth(br):
+    if len(br.find_elements_by_id("action-menu-toggle-1")) > 0:
+        return True
+    else:
+        return False
 
 
 def autorize(br, log, pas, link):

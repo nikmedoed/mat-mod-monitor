@@ -4,7 +4,7 @@ echo "" > log.txt
 set /a counter=0
 :do
  echo %counter%
- python monitor.py>>log.txt
+ python monitor.py >> log.txt
  set /a counter+=1
  timeout /t 10
 :while
