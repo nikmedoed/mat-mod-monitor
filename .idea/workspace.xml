@@ -49,9 +49,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Аспира/matmod/matmod20" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="kite.configurable" />
   </component>
   <component name="RunManager">
     <configuration name="monitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -123,10 +123,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1688" y="172" width="1411" height="918" key="#Plugins" timestamp="1603567862962">
+      <screen x="-2560" y="-174" width="2560" height="1410" />
+    </state>
+    <state x="-1688" y="172" width="1411" height="918" key="#Plugins/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603567862962" />
     <state x="-2242" y="-48" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603109212079">
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
     <state x="-2242" y="-48" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-2560.-174.2560.1410/1920.0.1920.1050@-2560.-174.2560.1410" timestamp="1603109212079" />
+    <state x="-1525" y="234" key="#xdebugger.evaluate" timestamp="1603205918220">
+      <screen x="-2560" y="-174" width="2560" height="1410" />
+    </state>
+    <state x="-1525" y="234" key="#xdebugger.evaluate/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603205918220" />
+    <state width="818" height="466" key="DebuggerActiveHint" timestamp="1603205832350">
+      <screen x="-2560" y="-174" width="2560" height="1410" />
+    </state>
+    <state width="818" height="466" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603205832350" />
+    <state x="-1500" y="273" key="FileChooserDialogImpl" timestamp="1603457416339">
+      <screen x="-2560" y="-174" width="2560" height="1410" />
+    </state>
+    <state x="-1500" y="273" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603457416339" />
     <state width="2539" height="496" key="GridCell.Tab.-1.bottom" timestamp="1603133380245">
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
@@ -143,22 +159,26 @@
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
     <state width="2539" height="496" key="GridCell.Tab.-1.right/0.0.1920.1050/-2560.-174.2560.1410/1920.0.1920.1050@-2560.-174.2560.1410" timestamp="1603133380245" />
-    <state width="2539" height="496" key="GridCell.Tab.0.bottom" timestamp="1603133867192">
+    <state width="2539" height="404" key="GridCell.Tab.0.bottom" timestamp="1603894660777">
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
     <state width="2539" height="496" key="GridCell.Tab.0.bottom/0.0.1920.1050/-2560.-174.2560.1410/1920.0.1920.1050@-2560.-174.2560.1410" timestamp="1603133867192" />
-    <state width="2539" height="496" key="GridCell.Tab.0.center" timestamp="1603133867192">
+    <state width="2539" height="404" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603894660777" />
+    <state width="2539" height="404" key="GridCell.Tab.0.center" timestamp="1603894660777">
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
     <state width="2539" height="496" key="GridCell.Tab.0.center/0.0.1920.1050/-2560.-174.2560.1410/1920.0.1920.1050@-2560.-174.2560.1410" timestamp="1603133867192" />
-    <state width="2539" height="496" key="GridCell.Tab.0.left" timestamp="1603133867191">
+    <state width="2539" height="404" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603894660777" />
+    <state width="2539" height="404" key="GridCell.Tab.0.left" timestamp="1603894660777">
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
     <state width="2539" height="496" key="GridCell.Tab.0.left/0.0.1920.1050/-2560.-174.2560.1410/1920.0.1920.1050@-2560.-174.2560.1410" timestamp="1603133867191" />
-    <state width="2539" height="496" key="GridCell.Tab.0.right" timestamp="1603133867192">
+    <state width="2539" height="404" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603894660777" />
+    <state width="2539" height="404" key="GridCell.Tab.0.right" timestamp="1603894660777">
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
     <state width="2539" height="496" key="GridCell.Tab.0.right/0.0.1920.1050/-2560.-174.2560.1410/1920.0.1920.1050@-2560.-174.2560.1410" timestamp="1603133867192" />
+    <state width="2539" height="404" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603894660777" />
     <state width="2539" height="496" key="GridCell.Tab.1.bottom" timestamp="1603132726907">
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
@@ -175,16 +195,13 @@
       <screen x="-2560" y="-174" width="2560" height="1410" />
     </state>
     <state width="2539" height="496" key="GridCell.Tab.1.right/0.0.1920.1050/-2560.-174.2560.1410/1920.0.1920.1050@-2560.-174.2560.1410" timestamp="1603132726907" />
+    <state x="-1779" y="176" key="SettingsEditor" timestamp="1603378343449">
+      <screen x="-2560" y="-174" width="2560" height="1410" />
+    </state>
+    <state x="-1779" y="176" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050/-2560.-174.2560.1410@-2560.-174.2560.1410" timestamp="1603378343449" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/printer.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
