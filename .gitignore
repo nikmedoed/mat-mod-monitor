@@ -76,3 +76,8 @@ log.txt
 .idea/workspace.xml
 app/debug.log
 .idea/workspace.xml
+.idea
+*.exe
+*.jar
+.idea/workspace.xml
+app/chromedriver.exe

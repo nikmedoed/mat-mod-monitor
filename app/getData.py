@@ -14,7 +14,8 @@ def getData(browser, link, fsid=""):
     sleep(3)
     new = []
     errr = True
-    while errr:
+    count = 0
+    while errr and count < 10:
         try:
             firstid = browser.find_element_by_xpath('//*[@id="Searchresult"]/table/tbody/tr[2]/td').text
             errr=False
@@ -23,13 +24,14 @@ def getData(browser, link, fsid=""):
             sleep(5)
             browser.get(link)
             sleep(2)
-            print("Не смог найти первый Id, обновил страницу")
+            count +=1
+            print("Не смог найти первый Id, обновил страницу", count)
     # print(firstid)
     pagenum = 1
     tfirst = 0
     bre = False
 
-    while 1:
+    while 1 and count < 10:
         try:
             elem = browser.find_elements_by_xpath('//*[@id="Searchresult"]/table/tbody/tr')
             del (elem[0])
